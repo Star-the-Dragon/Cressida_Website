@@ -1,0 +1,19 @@
+.cart {
+  margin-top: 30px;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart th, .cart td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cart .total {
+  text-align: right;
+  margin-top: 10px;
+}

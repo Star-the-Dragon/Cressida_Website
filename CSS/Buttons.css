@@ -1,0 +1,24 @@
+.size-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 3px;
+}
+
+.size-button {
+    padding: 10px 20px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.size-button:hover {
+    background-color: rgb(235, 118, 118);
+    color: white;
+}
+
+.size-button.selected {
+    background-color: black;
+    color: white;
+}

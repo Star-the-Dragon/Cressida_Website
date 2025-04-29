@@ -1,0 +1,30 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input[type="text"] {
+    width: 100%; /* Занимает 100% ширины родителя */
+    max-width: 600px; /* Максимальная ширина */
+    padding: 10px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px 0 0 5px; /* Закругление углов */
+    box-sizing: border-box; /* Учитываем padding и border в ширине */
+    height: 40px; /* Высота текстового поля */
+}
+
+.search-container button {
+    padding: 0 15px; /* Убираем верхний и нижний отступ, добавляем левый и правый */
+    border: none; /* Убираем границу */
+    border-radius: 0 5px 5px 0; /* Закругление углов */
+    background-color: #000000; /* Цвет фона */
+    color: white; /* Цвет текста */
+    cursor: pointer; /* Указатель при наведении */
+    height: 40px; /* Высота кнопки совпадает с высотой текстового поля */
+    display: flex; /* Для выравнивания текста по центру */
+    align-items: center; /* Вертикально выравниваем текст */
+}
+
+.search-container button:hover {
+    background-color: #c77777; /* Цвет фона при наведении */
+}

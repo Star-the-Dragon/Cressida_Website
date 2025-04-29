@@ -1,0 +1,61 @@
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px); /* Настройка сетки */
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 0 auto;
+}
+
+/*это к каталогу*/
+.product {
+    border: 1px solid #ddd; /* Граница для товара */
+    border-radius: 5px; /* Скругление углов */
+    padding: 10px; /* Отступы внутри товара */
+    text-align: center; /* Выравнивание текста по центру */
+    transition: transform 0.2s; /* Плавный переход для эффекта */
+}
+
+/*это к каталогу*/
+.product:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    border-color: #333; /* Изменение цвета границы при наведении */
+}
+
+/*это к каталогу*/
+.product img {
+    max-width: 100%; /* Масштабирование изображения по ширине */
+    height: auto; /* Пропорциональное изменение высоты */
+    cursor: pointer;
+}
+
+
+.modal img {
+    max-width: 100%; /* Масштабирование изображения по ширине */
+    height: auto; /* Пропорциональное изменение высоты */
+}
+
+.form-container {
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column; /* Вертикальное располагение форм */
+}
+
+.form {
+    margin-top: 10px; /* Отступы сверху */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px;/*отступ снизу*/
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Скругленные углы */
+    box-sizing: border-box;/*учет ширины*/
+}

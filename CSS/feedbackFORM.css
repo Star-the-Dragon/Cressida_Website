@@ -1,0 +1,96 @@
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed; /* Фиксированное позиционирование */
+    z-index: 1; /* Отображение поверх других элементов */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ширина окна */
+    height: 100%; /* Высота окна */
+    overflow: auto; /* Прокрутка при необходимости */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white; /* Цвет фона модального окна */
+    margin: auto; /* Автоматический отступ для центрирования */
+    padding: 20px 40px; /* Внутренние отступы */
+    border: 1px solid #888; /* Граница окна */
+    border-radius: 5px; /* Закругленные углы */
+    display: flex; /* Flex-контейнер */
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрирование содержимого */
+    max-width: 600px; /* Максимальная ширина окна */
+    position: relative; /* Относительное позиционирование */
+    top: 50%; /* Устанавливаем отступ сверху */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
+
+/* Закрытие */
+.close {
+    position: absolute; /* Абсолютное позиционирование */
+    color: #040404; /* Цвет кнопки закрытия */
+    right: 10px; /* Положение справа */
+    top: 10px; /* Положение сверху */
+    font-size: 28px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    cursor: pointer; /* Курсор при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.close:hover, .close:focus {
+    color: black; /* Цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+
+/* Поля ввода и кнопки */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px;/*отступ снизу*/
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Скругленные углы */
+    box-sizing: border-box;/*учет ширины*/
+}
+
+.contact-form textarea {
+    height: 190px; /* Высота текстового поля */
+    resize: vertical; /* Вертикальное изменение размера */
+}
+
+.submit-btn {
+    background-color: #000000; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    width: 100%;
+    padding: 15px 20px; /* Отступы */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта */
+}
+
+
+.submit-btn:hover {
+    background-color: #c77777; /* Цвет кнопки при наведении */
+}
+
+/* Кнопка отзыва */
+.feedback-button {
+    background-color: #000000; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Отступы */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта */
+    text-align: center; /* Центрируем текст */
+    display: inline-block; /* Для правильного отображения */
+}
+
+.feedback-button:hover {
+    background-color: #c77777; /* Цвет кнопки при наведении */
+}

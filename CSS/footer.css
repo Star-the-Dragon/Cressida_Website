@@ -1,0 +1,84 @@
+.zagolovki-footer{
+color: #a1aaaa;
+}
+
+.footer {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 20px;
+    border: 0;
+    text-align: left;
+}
+
+.footer-container {
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.footer-section {
+    width: 17%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.app-store, .google-play {
+    margin-bottom: 10px;
+}
+
+.app-store img, .google-play img {
+    width: 150px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.social-media a img {
+    width: 30px;
+}
+
+.footer-prava{
+    background-color: #444444;
+    color: #a1aaaa;
+    text-align: center;
+    position: static;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #a8a8a8;
+    text-decoration: none;
+}
